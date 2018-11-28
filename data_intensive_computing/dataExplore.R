@@ -3,6 +3,11 @@ df <- read.csv("D://...//ks-projects-201801.csv", header = TRUE)
 > dim(df)
 [1] 378661     15
 
+> names(df)
+ [1] "ID"               "name"             "category"         "main_category"    "currency"        
+ [6] "deadline"         "goal"             "launched"         "pledged"          "state"           
+[11] "backers"          "country"          "usd.pledged"      "usd_pledged_real" "usd_goal_real"   
+
 > head(df)
           ID                                                       name       category
 1 1000002330                            The Songs of Adelaide & Abullah         Poetry
