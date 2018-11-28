@@ -33,3 +33,8 @@ df <- read.csv("D://...//ks-projects-201801.csv", header = TRUE)
 
 
 # INSTALL DATA EPLOREER PACKAGE
+> install.packages("DataExplorer")
+> library(DataExplorer)
+> plot_str(df)
+> plot_missing(df)
+> plot_histogram(df)
