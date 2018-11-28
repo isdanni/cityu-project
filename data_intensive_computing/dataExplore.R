@@ -26,4 +26,5 @@ df <- read.csv("D://...//ks-projects-201801.csv", header = TRUE)
 5      US        1283             1283      19500.00
 6      US       52375            52375      50000.00
 
-> 
+
+# INSTALL DATA EPLOREER PACKAGE
